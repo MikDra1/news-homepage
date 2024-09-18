@@ -1,0 +1,41 @@
+.new {
+  background-color: var(--Very-dark-blue);
+}
+
+:nth-child(1 of .new) {
+  border-bottom: 1px solid var(--Dark-grayish-blue);
+  padding-bottom: 1.5rem;
+}
+
+:nth-child(2 of .new) {
+  border-bottom: 1px solid var(--Dark-grayish-blue);
+  padding-bottom: 1.5rem;
+}
+
+.new h3 {
+  color: var(--Off-white);
+  margin-bottom: 0.25rem;
+  transition: all .3s;
+}
+
+.new p {
+  color: var(--Grayish-blue);
+}
+
+@media (min-width: 1000px) {
+  :nth-child(1 of .new) {
+    border-bottom: 1px solid var(--Dark-grayish-blue);
+    padding-bottom: 0rem;
+  }
+
+  :nth-child(2 of .new) {
+    border-bottom: 1px solid var(--Dark-grayish-blue);
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+  }
+
+  .new h3:hover {
+    color: var(--Soft-orange);
+    cursor: pointer;
+  }
+}

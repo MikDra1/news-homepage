@@ -1,0 +1,17 @@
+.featuredNews {
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 3rem;
+    display: grid;
+    gap: 2rem;
+}
+
+@media (min-width: 1000px) {
+    .featuredNews {
+        display: flex;
+        width: 80%;
+        gap: 0rem;
+        margin-top: 4rem;
+        transform: translate(-3%);
+    }
+}

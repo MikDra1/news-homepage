@@ -1,0 +1,24 @@
+.news {
+    width: 90%;
+    margin-inline: auto;
+    background-color: var(--Very-dark-blue);
+    padding: 1.5rem;
+    display: grid;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.news h2 {
+    font-size: 2.5rem;
+    color: var(--Soft-orange);
+    line-height: 1;
+    margin-bottom: .5rem;
+}
+
+@media (min-width: 1000px) {
+    .news {
+      margin-top: 0;
+      width: 100%;
+      transform: translateX(-30%);
+    }
+  }

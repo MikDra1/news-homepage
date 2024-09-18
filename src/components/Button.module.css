@@ -1,0 +1,16 @@
+.btn {
+    background-color: var(--Soft-red);
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    padding-inline: 2rem;
+    padding-block: .75rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn:hover {
+    background-color: var(--Very-dark-blue);
+    color: #fff;
+}

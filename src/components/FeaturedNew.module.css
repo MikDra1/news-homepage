@@ -1,0 +1,35 @@
+.featuredNew {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    gap: 1rem;
+    padding-right: .25rem;
+    align-items: center;
+}
+
+.featuredNew h2 {
+    font-size: 1.75rem;
+    color: var(--Soft-orange);
+}
+
+.featuredNew h3 {
+    transition: all .3s;
+}
+
+
+
+.featuredNew p {
+    color: var(--Dark-grayish-blue);
+}
+
+@media (min-width: 600px) {
+    .featuredNew {
+        gap: 2rem;
+    }
+    .featuredNew p {
+        width: 82%;
+    }
+    .featuredNew h3:hover {
+        color: var(--Soft-orange);
+        cursor: pointer;
+    }
+}

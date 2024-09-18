@@ -1,0 +1,47 @@
+.hero {
+    width: 90%;
+    margin-inline: auto;
+}
+
+.hero button {
+    margin-top: 1rem;
+}
+
+.hero h1 {
+    font-weight: 900;
+    line-height: 1.1;
+    font-size: 2.25rem;
+    width: 80%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    color: var(--Dark-grayish-blue);
+}
+
+@media (min-width: 1000px) {
+    .hero {
+        width: 100%;
+    }
+    .heroContent {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .hero h1 {
+        font-size: 3.25rem;
+    }
+
+    .hero p {
+        width: 70%;
+        line-height: 1.8;
+    }
+
+    .hero img {
+        width: 85%;
+    }
+
+
+}
