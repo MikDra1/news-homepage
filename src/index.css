@@ -88,6 +88,7 @@ p {
 .container {
   max-width: 1500px;
   margin-inline: auto;
+  transform: translateX(3.5vw);
 }
 
 @media (min-width: 1000px) {
